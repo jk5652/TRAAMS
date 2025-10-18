@@ -416,6 +416,29 @@ body {
     margin-top: 3rem;
 }
 
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.contact-icon i {
+  font-size: 30px;
+  color: #25d366; /* WhatsApp green */
+}
+
+.whatsapp-link {
+  color: #25d366;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.whatsapp-link:hover {
+  text-decoration: underline;
+}
+
+
 .contact-info {
     display: flex;
     flex-direction: column;
